@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Store</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  {{#unless noHeader}}
+    {{> header}}
+  {{/unless}}
+  <main>
+    {{{body}}}
+  </main>
+  {{#unless noFooter}}
+    {{> footer}}
+  {{/unless}}
+</body>
+</html>
