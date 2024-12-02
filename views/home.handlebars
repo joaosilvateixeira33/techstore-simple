@@ -1,2 +1,11 @@
 <h1>Bem vindo ao tech store</h1>
 <p>Sua loja favorita da industria tech</p>
+
+{{#each products}}
+    <div>
+        <img src={{this.image}} alt={{this.name}}>
+        <h3>{{this.name}}</h3>
+        <p>R$ {{this.price}}</p>
+        <a href="/product/{{this.id}}">Ver mais</a>
+    </div>
+{{/each}}
