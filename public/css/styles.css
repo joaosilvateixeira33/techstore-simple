@@ -36,6 +36,7 @@ ul>li>a{
 main{
     margin: 0 20%;
     padding: 25px;
+    height: 88vh;
 }
 
 .hero-content{
@@ -46,7 +47,8 @@ main{
 .card-container{
     display: flex;
     align-items: center;
-    gap: 30%;
+    justify-content: space-around;
+    gap: 40px;
 }
 
 .card-item{
